@@ -12,7 +12,7 @@ import model.entity.Todo;
 public class TodoListDaoImpl extends BaseDao implements TodoListDao {
 
 	@Override
-	public List<Todo> findAll() {
+	public List<Todo> findAllTodos() {
 		List<Todo> todos = new ArrayList<>();
 		
 		String sql = "select id , text, completed from todo order by id";

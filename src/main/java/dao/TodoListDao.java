@@ -1,15 +1,14 @@
 package dao;
 
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
+
 
 import model.entity.Todo;
 
 public interface TodoListDao {
-	public List<Todo> todo = new CopyOnWriteArrayList<>();
+		
 	
-	
-	List<Todo> findAll();
+	List<Todo> findAllTodos();
 	
 	Todo getTodo(Integer id);
 	
