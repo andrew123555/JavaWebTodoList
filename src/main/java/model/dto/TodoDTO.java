@@ -11,6 +11,7 @@ import model.entity.Todo;
 
 public class TodoDTO {
 	private Integer id;
+	private Integer no;
 	private String text;
 	private Boolean completed ; 
 	
